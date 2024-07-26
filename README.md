@@ -1,3 +1,4 @@
+# Josh Harrison - Dev Portfolio
 ## Introduction
 I am an ever-growing ever-learning Web Developer with a passion for frontend UI’s that are driven by customer experience and research. While my B.S degree is in Network and Communication Management, I had the opportunity over 10 years ago to learn basic HTML, CSS and JavaScript during personal development time at work and fell in love with being able to build and create whatever I imagined seeing on the web. From that day on, I have pushed myself to create user friendly applications that are simple to use to solve technical business problems and provide a positive user experience. I am a lifelong learner and have taken my love of JavaScript to grow in other JS-based frameworks and libraries such as AngularJS, Angular, VueJS, and React.
 
