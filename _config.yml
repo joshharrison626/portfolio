@@ -1,0 +1,6 @@
+remote_theme: pages-themes/cayman@v0.2.0
+plugins:
+- jekyll-remote-theme
+title: Development Portfolio
+description: A collection of prototypes and code samples
+show_downloads: false
