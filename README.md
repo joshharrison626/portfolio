@@ -5,5 +5,5 @@ I believe that the web should be accessible to everyone regardless of their abil
 
 ## Contact Info
 * joshharrison626@gmail.com
-* https://www.linkedin.com/in/jjharrison/
+* [https://www.linkedin.com/in/jjharrison/](https://www.linkedin.com/in/jjharrison/)
 
