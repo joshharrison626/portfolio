@@ -10,7 +10,7 @@ I have not ever spent time learning CSS transitions and animations, so I took a 
     </div>
     <div class="image-container">
         <h3>Animated SVG</h3>
-        <p class="codepen" data-height="420" data-default-tab="html,result" data-slug-hash="vYqgXOV" data-pen-title="CSS Animation - Lawnmower" data-user="Josh-Harrison" style="height: 420px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+        <p class="codepen" data-height="420" data-default-tab="result" data-slug-hash="vYqgXOV" data-pen-title="CSS Animation - Lawnmower" data-user="Josh-Harrison" style="height: 420px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
             <span>See the Pen <a href="https://codepen.io/Josh-Harrison/pen/vYqgXOV">
             CSS Animation - Lawnmower</a> by Josh Harrison (<a href="https://codepen.io/Josh-Harrison">@Josh-Harrison</a>)
             on <a href="https://codepen.io">CodePen</a>.</span>
