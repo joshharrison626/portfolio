@@ -7,11 +7,11 @@ I believe that the web should be accessible to everyone regardless of their abil
 ## Samples
 * [Prototypes](./prototypes/)
 * [Experiments](./experiments/)
-* [SVG Animations](./animations/README.md)
+* [SVG Animations](./animations/)
 
 
 
-## Contact Info
+## Contact
 * joshharrison626@gmail.com
 * [https://www.linkedin.com/in/jjharrison/](https://www.linkedin.com/in/jjharrison/)
 
