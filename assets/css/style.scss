@@ -2,7 +2,6 @@
 ---
 
 @import "{{ site.theme }}";
-@import url(../../animations/style.scss);
 
 body {
     color: #303846;
@@ -31,6 +30,10 @@ img.photo {
 
     & .image-container {
         width: 300px;
+    }
+
+    & .pen-container {
+        width: 400px;
     }
 }
 

@@ -8,7 +8,7 @@ I have not ever spent time learning CSS transitions and animations, so I took a 
         <h3>Original SVG</h3>
         <img src="../assets/images/lawnmower_illo.svg" width="300px" />
     </div>
-    <div class="image-container">
+    <div class="pen-container">
         <h3>Animated SVG</h3>
         <p class="codepen" data-height="420" data-default-tab="result" data-slug-hash="vYqgXOV" data-pen-title="CSS Animation - Lawnmower" data-user="Josh-Harrison" style="height: 420px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
             <span>See the Pen <a href="https://codepen.io/Josh-Harrison/pen/vYqgXOV">
@@ -25,7 +25,7 @@ I have not ever spent time learning CSS transitions and animations, so I took a 
         <h3>Original SVG</h3>
         <img src="../assets/images/celebrate_illo.svg" width="300px" />
     </div>
-    <div class="image-container">
+    <div class="pen-container">
         <h3>Animated SVG</h3>
         <img src="../assets/images/celebrate_illo.svg" width="300px" />
     </div>
