@@ -4,24 +4,24 @@ I have not ever spent time learning CSS transitions and animations, so I took a 
 
 ## Landscaping
 <div class="container-row">
-    <div>
-        ### Original SVG
-        <img src="../assets/images/lawnmower_illo.svg" width="400px" />
+    <div class="image-container">
+        <h3>Original SVG</h3>
+        <img src="../assets/images/lawnmower_illo.svg" width="300px" />
     </div>
-    <div>
-        ### Animated SVG
-        <img src="../assets/images/lawnmower_illo.svg" width="400px" />
+    <div class="image-container">
+        <h3>Animated SVG</h3>
+        <img src="../assets/images/lawnmower_illo.svg" width="300px" />
     </div>
 </div>
 
 ## Celebrating
 <div class="container-row">
-    <div>
-        ### Original SVG
-        <img src="../assets/images/celebrate_illo.svg" width="400px" />
+    <div class="image-container">
+        <h3>Original SVG</h3>
+        <img src="../assets/images/celebrate_illo.svg" width="300px" />
     </div>
-    <div>
-        ### Animated SVG
-        <img src="../assets/images/celebrate_illo.svg" width="400px" />
+    <div class="image-container">
+        <h3>Animated SVG</h3>
+        <img src="../assets/images/celebrate_illo.svg" width="300px" />
     </div>
 </div>

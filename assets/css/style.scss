@@ -24,6 +24,15 @@ img.photo {
     padding-top: 8px;
 }
 
+.container-row {
+    display: flex;
+    justify-content: space-around;
+
+    & .image-container {
+        width: 300px;
+    }
+}
+
 .site-footer {
     display: flex;
     justify-content: center;
