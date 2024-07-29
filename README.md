@@ -7,7 +7,7 @@ I believe that the web should be accessible to everyone regardless of their abil
 ## Samples
 * [Prototypes](./prototypes/)
 * [Experiments](./experiments/)
-* [SVG Animations](./animations/index.html)
+* [SVG Animations](./animations/README.md)
 
 
 
