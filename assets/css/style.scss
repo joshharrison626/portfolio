@@ -9,8 +9,13 @@ body {
 
 .page-header {
     color: #fff;
-    background-image: linear-gradient(120deg, #303846, #212763)
+    background-image: linear-gradient(120deg, #303846, #8d8e94)
 }
+
+main-content :is(h1,h2) {
+    color: #303846;
+}
+
 img.photo {
     width: 100px;
     border-radius: 50%;
@@ -22,6 +27,7 @@ img.photo {
 .site-footer {
     display: flex;
     justify-content: center;
+    color: #8d8e94;
 
     & ul {
         list-style: none;
@@ -33,6 +39,10 @@ img.photo {
 
             &:first-child:after {
                 content: " | ";
+            }
+
+            & a {
+                color: #8d8e94;
             }
         }
     }
