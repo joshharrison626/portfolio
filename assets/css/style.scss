@@ -12,7 +12,7 @@ body {
     background-image: linear-gradient(120deg, #303846, #8d8e94)
 }
 
-main-content :is(h1,h2) {
+.main-content :is(h1,h2) {
     color: #303846;
 }
 
