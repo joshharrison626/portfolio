@@ -9,4 +9,4 @@ My task was to investigate how competitors and/or industry leaders support date/
 
 Read more in my [investigation into time input fields](https://docs.google.com/document/d/1w351H2Ih10e0KT_HQhwIWEZLCLYnlQK1/edit?usp=drive_link&ouid=106808209585355818270&rtpof=true&sd=true).
 
-![prototype examples of different time input fields](/assets/images/time_input_fields_prototypes.png)
+<img src="/assets/images/time_input_fields_prototypes.png" alt="prototype examples of different time input fields" />

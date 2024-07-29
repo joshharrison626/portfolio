@@ -6,7 +6,7 @@ I believe that the web should be accessible to everyone regardless of their abil
 
 ## Samples
 * [Prototypes](./samples/prototypes/)
-* [Research](./samples/research/README.md)
+<!-- * [Research](./samples/research/README.md) -->
 * [Experiments](./samples/experiments/)
 
 
