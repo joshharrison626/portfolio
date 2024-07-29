@@ -3,6 +3,22 @@
 
 @import "{{ site.theme }}";
 
+body {
+    color: #303846;
+}
+
+.page-header {
+    color: #fff;
+    background-image: linear-gradient(120deg, #303846, #212763)
+}
+img.photo {
+    width: 100px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 12px;
+    margin-bottom: -2px
+}
+
 .site-footer {
     display: flex;
     justify-content: center;
