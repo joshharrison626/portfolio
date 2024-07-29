@@ -1,5 +1,7 @@
 # Josh Harrison - Frontend / UX Engineer
+
 ## About me
+
 <img class="photo" src="./assets/images/photo.jpg" />
 I am an ever-growing ever-learning Web Developer with a passion for frontend UI’s that are driven by customer experience and research. While my B.S degree is in Network and Communication Management, I had the opportunity over 10 years ago to learn basic HTML, CSS and JavaScript during personal development time at work and fell in love with being able to build and create whatever I imagined seeing on the web.
 
