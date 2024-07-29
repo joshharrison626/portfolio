@@ -5,9 +5,9 @@ I am an ever-growing ever-learning Web Developer with a passion for frontend UIâ
 I believe that the web should be accessible to everyone regardless of their abilities and I have taken this commitment personally in the work I do and teaching others to do the same. I strive to be a good citizen in the workplace, trying to be very approachable, transparent, and work with integrity.
 
 ## Samples
-* [Prototypes](./samples/prototypes/)
-<!-- * [Research](./samples/research/README.md) -->
-* [Experiments](./samples/experiments/)
+* [Prototypes](./prototypes/)
+<!-- * [Research](./research/README.md) -->
+* [Experiments](./experiments/)
 
 
 
