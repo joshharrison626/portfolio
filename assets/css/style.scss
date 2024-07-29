@@ -4,10 +4,17 @@
 @import "{{ site.theme }}";
 
 .site-footer {
+    display: flex;
+    justify-content: center;
+
     & ul {
         list-style: none;
+        display: inline;
+        padding: 0;
+
         & li {
             display: inline;
+
             &:first-child:after {
                 content: " | ";
             }
