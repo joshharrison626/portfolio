@@ -2,6 +2,7 @@
 ---
 
 @import "{{ site.theme }}";
+@import url(../../animations/style.scss);
 
 body {
     color: #303846;
