@@ -2,3 +2,15 @@
 ---
 
 @import "{{ site.theme }}";
+
+.site-footer {
+    & ul {
+        list-style: none;
+        & li {
+            display: inline;
+            &:first-child:after {
+                content: " | ";
+            }
+        }
+    }
+}
