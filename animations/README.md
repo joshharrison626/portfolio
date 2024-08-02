@@ -1,6 +1,6 @@
 # SVG Animations (CSS Only)
 
-I have not ever spent time learning CSS transitions and animations, so I took a few of our product SVG's and learned how to animate pieces of them.
+I have not ever spent time learning CSS transitions and animations, so I took a few SVG's and learned how to animate pieces of them.
 
 ## Landscaping
 <div class="container-row">
