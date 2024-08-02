@@ -33,7 +33,7 @@ img.photo {
     justify-content: space-around;
     
     &:has(.experiment-image-container) {
-        flex-wrap: nowrap;
+        flex-wrap: wrap;
     }
     
     & .animation-image-container {
