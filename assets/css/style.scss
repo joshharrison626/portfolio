@@ -30,6 +30,11 @@ img.photo {
 
     & .image-container {
         width: 300px;
+
+        & .static-image {
+            display: flex;
+            justify-content: center;
+        }
     }
 
     & .pen-container {

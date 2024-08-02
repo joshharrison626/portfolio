@@ -6,7 +6,9 @@ I have not ever spent time learning CSS transitions and animations, so I took a 
 <div class="container-row">
     <div class="image-container">
         <h3>Original SVG</h3>
-        <img src="../assets/images/lawnmower_illo.svg" width="300px" />
+        <div class="static-image">
+            <img src="../assets/images/lawnmower_illo.svg" width="300px" />
+        </div>
     </div>
     <div class="pen-container">
         <h3>Animated SVG</h3>
@@ -23,7 +25,9 @@ I have not ever spent time learning CSS transitions and animations, so I took a 
 <div class="container-row">
     <div class="image-container">
         <h3>Original SVG</h3>
-        <img src="../assets/images/celebrate_illo.svg" width="300px" />
+        <div class="static-image">
+            <img src="../assets/images/celebrate_illo.svg" width="300px" />
+        </div>
     </div>
     <div class="pen-container">
         <h3>Animated SVG</h3>
