@@ -31,7 +31,11 @@ img.photo {
 .container-row {
     display: flex;
     justify-content: space-around;
-
+    
+    &:has(.experiment-image-container) {
+        flex-wrap: nowrap;
+    }
+    
     & .animation-image-container {
         width: 300px;
         display: flex;
