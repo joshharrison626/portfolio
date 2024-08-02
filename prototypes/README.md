@@ -12,8 +12,8 @@ Stretch goal was to support keyboard navigation for the editable cells as descri
 * [Demo video](https://drive.google.com/file/d/17bI9G31jOisRproRTugQLD8XsfIPHyHk/view?usp=sharing) - (Google drive)
 
 * Prototypes
-<p class="codepen" data-height="420" data-default-tab="result" data-slug-hash="XWLRbxP" data-pen-title="Table with clickable edit fields and focus manager
-" data-user="Josh-Harrison" style="height: 420px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+<p class="codepen" data-height="820" data-default-tab="result" data-slug-hash="XWLRbxP" data-pen-title="Table with clickable edit fields and focus manager
+" data-user="Josh-Harrison" style="height: 820px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
     <span>See the Pen <a href="https://codepen.io/Josh-Harrison/pen/XWLRbxP">
     Table with clickable edit fields and focus manager
     </a> by Josh Harrison (<a href="https://codepen.io/Josh-Harrison">@Josh-Harrison</a>)
