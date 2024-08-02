@@ -32,7 +32,7 @@ img.photo {
     display: flex;
     justify-content: space-around;
 
-    & .image-container {
+    & .animation-image-container {
         width: 300px;
         display: flex;
         flex-direction: column;
@@ -45,6 +45,10 @@ img.photo {
     }
 
     & .pen-container {
+        width: 400px;
+    }
+
+    & .experiment-image-container {
         width: 400px;
     }
 }

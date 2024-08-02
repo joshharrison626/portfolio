@@ -7,3 +7,24 @@ The result of this experiment was to build the feature following the table spec,
 
 ## Resources
 * <a href="https://drive.google.com/drive/folders/1WedV6mHOJz8qZwm2LR2d6LPAyj8XiNeN?usp=sharing" target="_blank">Experiment videos</a> - (Google Drive)
+
+## Examples
+
+<div class="container-row">
+    <div class="experiment-image-container">
+        <h3>Description List</h3>
+        <img src="../assets/images/description_list.png">
+    </div>
+    <div class="experiment-image-container">
+        <h3>Ordered List</h3>
+        <img src="../assets/images/ordered_list.png">
+    </div>
+    <div class="experiment-image-container">
+        <h3>Semantic Table</h3>
+        <img src="../assets/images/semantic_table.png">
+    </div>
+    <div class="experiment-image-container">
+        <h3>Styled Table</h3>
+        <img src="../assets/images/styled_table.png">
+    </div>
+</div>
