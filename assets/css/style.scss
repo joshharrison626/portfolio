@@ -14,6 +14,7 @@ body {
 
 .main-content :is(h1,h2,h3) {
     color: #303846;
+    max-width: 80rem;
 }
 
 img.photo {
@@ -30,10 +31,13 @@ img.photo {
 
     & .image-container {
         width: 300px;
+        display: flex;
+        flex-direction: column;
 
         & .static-image {
             display: flex;
             justify-content: center;
+            flex-grow: 1;
         }
     }
 
