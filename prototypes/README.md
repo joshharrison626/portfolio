@@ -9,7 +9,7 @@ Stretch goal was to support keyboard navigation for the editable cells as descri
 2. Support keyboard navigation in the editable cells using up/down/left/right arrows and native tab/shift-tab
 
 ## Demo Video
-* [Demo video](https://drive.google.com/file/d/17bI9G31jOisRproRTugQLD8XsfIPHyHk/view?usp=sharing) - (Google drive)
+* <a href="https://drive.google.com/file/d/17bI9G31jOisRproRTugQLD8XsfIPHyHk/view?usp=sharing" target="_blank">Demo video</a> - (Google drive)
 
 * Prototypes
 <p class="codepen" data-height="820" data-default-tab="result" data-slug-hash="XWLRbxP" data-pen-title="Table with clickable edit fields and focus manager
