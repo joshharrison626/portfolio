@@ -121,7 +121,7 @@ return (
     
 ## Add helper text
 
-Now we will add helper text to the `input` to describe the expected format. We need to make sure that the helper text is accessible to support a screen reader. The [`pattern` spec](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/pattern#usability_and_accessibility_considerations) suggests using a `title` attribute. The [`title` attribute](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input#title) is announced is represented as a tooltip and is announced as secondary or supplemental information by a screen reader.
+Now we will add helper text to the `input` to describe the expected format. We need to make sure that the helper text is accessible to support a screen reader. The [`pattern` spec](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/pattern#usability_and_accessibility_considerations) suggests using a `title` attribute. The [`title` attribute](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input#title) is represented as a tooltip and is announced as secondary or supplemental information by a screen reader.
 
 ```javascript
 // ...
@@ -145,12 +145,11 @@ return (
 // ...
 ```
 * Mouse Hover
-    
-    <img src="../assets/images/easy-input-validation-tooltip.png" alt="" />
+    <div class="media-image-container"><img src="../assets/images/easy-input-validation-tooltip.png" alt="" /></div>
 * Screen Reader
 
-    <img src="../assets/images/easy-input-validation-sr-1.png" alt="" />
-    <img src="../assets/images/easy-input-validation-sr-2.png" alt="" />
+    <div class="media-image-container"><img src="../assets/images/easy-input-validation-sr-1.png" alt="" /></div>
+    <div class="media-image-container"><img src="../assets/images/easy-input-validation-sr-2.png" alt="" /></div>
 
     
     
