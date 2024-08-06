@@ -119,6 +119,39 @@ return (
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
     
+## Add helper text
+
+Now we will add helper text to the `input` to describe the expected format. We need to make sure that the helper text is accessible to support a screen reader. The [`pattern` spec](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/pattern#usability_and_accessibility_considerations) suggests using a `title` attribute. The [`title` attribute](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input#title) is announced is represented as a tooltip and is announced as secondary or supplemental information by a screen reader.
+
+```javascript
+// ...
+
+// Add the title attribute and value to the input element
+return (
+    <div>
+      <label for="signup-username">Username</label>
+      <input 
+        id="signup-username"
+        type="text"
+        value={username}
+        onChange={handleUsernameChange}
+        required
+        pattern="\w{8,10}"
+        title="8 characters, should not contain any spaces or special characters"
+      />
+    </div>
+  );
+
+// ...
+```
+* Mouse Hover
+    
+    <img src="../assets/images/easy-input-validation-tooltip.png" alt="" />
+* Screen Reader
+
+    <img src="../assets/images/easy-input-validation-sr-1.png" alt="" />
+    <img src="../assets/images/easy-input-validation-sr-2.png" alt="" />
+
     
     
     this setup assumes you already know how to connect an input to react state management
