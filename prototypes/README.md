@@ -1,4 +1,6 @@
-# Table layout and keyboard navigation
+# Prototypes
+
+## Table layout and keyboard navigation
 
 The purpose of this prototype was to architect a semantic HTML table layout that could support
 * toggling data cells to an editable text cell
@@ -8,11 +10,11 @@ The purpose of this prototype was to architect a semantic HTML table layout that
 
 Stretch goal was to support keyboard navigation for the editable cells as described in the [aria data-grid](https://www.w3.org/WAI/ARIA/apg/patterns/grid/examples/data-grids/) spec.
 
-## Goals
+### Goals
 1. Demonstrate an appropriate layout for supporting expand/collapse and multiple, editable inputs in either a single cell or multiple cells
 2. Support keyboard navigation in the editable cells using up/down/left/right arrows and native tab/shift-tab
 
-## Demo Video
+### Demo Video
 * <a href="https://drive.google.com/file/d/17bI9G31jOisRproRTugQLD8XsfIPHyHk/view?usp=sharing" target="_blank">Demo video</a> - (Google drive)
 
 * Prototypes

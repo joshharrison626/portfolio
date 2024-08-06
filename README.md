@@ -13,3 +13,4 @@ I believe that the web should be accessible to everyone regardless of their abil
 * [Prototypes](./prototypes/)
 * [Experiments](./experiments/)
 * [SVG Animations](./animations/)
+<!-- * [Articles, Guides, and Talks](./media/) -->
