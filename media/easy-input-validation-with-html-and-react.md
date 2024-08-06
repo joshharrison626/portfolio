@@ -150,7 +150,30 @@ return (
     <div class="media-image-container"><img src="../assets/images/easy-input-validation-sr-1.png" alt="" /></div>
     <div class="media-image-container"><img src="../assets/images/easy-input-validation-sr-2.png" alt="" /></div>
 
-    
+An alternative to using a `title` tooltip is to add visible text that describes the `input` using `aria-describedby`. The [`aria-describedby` attribute](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-describedby) expects an HTML `id` of the text that describes it. For our example, we will add helper text with a unique `id` as a sibling to the `input` and point the `input` to the helper text using `aria-describedby`. Using this method puts visible text on the page that is announced by a screen reader still as secondary or supplemental text when the screen reader focuses on the `input`.
+
+```javascript
+// ...
+
+// Add the aria-describedby attribute and the helper text sibling
+return (
+    <div>
+      <label for="signup-username">Username</label>
+      <input 
+        id="signup-username"
+        type="text"
+        value={username}
+        onChange={handleUsernameChange}
+        required
+        pattern="\w{8,10}"
+        aria-describedby="signup-username-helper-text"
+      />
+      <div id="signup-username-helper-text">
+        8 characters, should not contain any spaces or special characters
+    </div>
+    </div>
+  );
+```
     
     this setup assumes you already know how to connect an input to react state management
     input and attributes
