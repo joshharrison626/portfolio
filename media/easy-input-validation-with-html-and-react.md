@@ -76,6 +76,51 @@ root.render(
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
+## Add a validation pattern
+We are going to use the `input`'s [`pattern` attribute](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/pattern) to specify a regular expression that the value should match. For our example, we will require that the username contains 8 to 10 alphanumeric characters and no special characters. We'll also add a simple style to the `input`'s `:valid` and `:invalid` pseudo-classes to illustrate the two states.
+
+> NOTE: These pseudo-classes use red and green to convey invalid and valid. To meet accessibility guidelines it is never recommended to convey meaning by color alone. We will improve these styles as we continue.
+
+```javascript
+// ...
+
+// Add the pattern attribute and value to the input element
+return (
+    <div>
+      <label for="signup-username">Username</label>
+      <input 
+        id="signup-username"
+        type="text"
+        value={username}
+        onChange={handleUsernameChange}
+        required
+        pattern="\w{8,10}"
+      />
+    </div>
+  );
+
+// ...
+```
+```css
+/* Add two pseudo-classes to your CSS */
+#signup-username:invalid {
+  border: 3px solid red;
+}
+
+#signup-username:valid {
+  border: 3px solid green;
+}
+```
+
+<p class="codepen" data-height="300" data-default-tab="js,result" data-slug-hash="poXwVaM" data-pen-title="Easy input validation 2" data-user="Josh-Harrison" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/Josh-Harrison/pen/poXwVaM">
+  Easy input validation 2</a> by Josh Harrison (<a href="https://codepen.io/Josh-Harrison">@Josh-Harrison</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+    
+    
+    
     this setup assumes you already know how to connect an input to react state management
     input and attributes
         start with type=text for simplicity
