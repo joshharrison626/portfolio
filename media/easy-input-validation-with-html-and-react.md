@@ -147,7 +147,6 @@ return (
 * Mouse Hover
     <div class="media-image-container"><img src="../assets/images/easy-input-validation-tooltip.png" alt="" /></div>
 * Screen Reader
-
     <div class="media-image-container"><img src="../assets/images/easy-input-validation-sr-1.png" alt="" /></div>
     <div class="media-image-container"><img src="../assets/images/easy-input-validation-sr-2.png" alt="" /></div>
 
