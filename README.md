@@ -12,6 +12,7 @@ In my current role, I have contributed to multiple internal design systems to fi
 
 
 ## Samples
+* [Resume](./assets/files/Josh_Harrison_UI_UX_Developer_Resume.pdf)
 * [Articles, Guides, and Talks](./media/)
 * [Prototypes](./prototypes/)
 * [Experiments](./experiments/)
