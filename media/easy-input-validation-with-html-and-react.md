@@ -245,9 +245,48 @@ return (
 
 With all of the foundational elements, attributes, and styles in place, we can add a button that will check for any invalid field statuses when it is clicked. This way we can simulate blocking the data submit if the field or any number of fields are invalid.
 
-```javascript
+In order to check the validity of the `input` field, we have to attach a `ref` to it to keep track of it. The `ref` will allow us to use the `checkValidity()` helper to summarize the validity state as either `true` or `false`. There are a good number of specific validity checks you can do by using the [`input`'s `ValidityState API`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input#client-side_validation), but for our example we will use the overall `boolean` check.
 
+```javascript
+// Add the useRef hook to your imports
+import React, { useRef, useState } from "https://esm.sh/react";
+
+// ...
+
+const [username, setUsername] = useState('');
+// Add a ref to the username input
+const usernameRef = useRef(null);
+
+// ...
+
+// Add a click handler for the submit button
+function handleSubmitClick() {
+  // Check the validity status of the input field
+  const isValid = usernameRef.current.checkValidity();
+  if (isValid) {
+    alert("Success!");
+  } else {
+    alert("Please try again.");
+  }
+}
+
+// ...
+
+// Add a Submit button with an onClick
+<div className="validation-status"></div>
+<div id="signup-username-helper-text">
+  8 to 10 characters, should not contain any spaces or special characters
+</div>
+<button onClick={handleSubmitClick}>Submit</button>
+
+// ...
 ```
+
+That's it, you have an easy way to do `input` validation.
+If you wanted to add more fields to your form you could still easily validate them by
+1. Assigning individual `ref`'s to each of them
+2. Modify the `handleSubmitClick` handler to loop through each of the `input` `ref`s and `checkValidity` to set an overall `isValid` value
+
 
 
   this setup assumes you already know how to connect an input to react state management
