@@ -281,7 +281,7 @@ There are other `input` `type`s that you can use in your form and configuring va
 
 Here is an example of a sign up form that uses all three.
 
-<p class="codepen" data-height="300" data-default-tab="js,result" data-slug-hash="oNrwNax" data-pen-title="Sign Up form with easy input validation" data-user="Josh-Harrison" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+<p class="codepen" data-height="700" data-default-tab="js,result" data-slug-hash="oNrwNax" data-pen-title="Sign Up form with easy input validation" data-user="Josh-Harrison" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/Josh-Harrison/pen/oNrwNax">
   Sign Up form with easy input validation</a> by Josh Harrison (<a href="https://codepen.io/Josh-Harrison">@Josh-Harrison</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
