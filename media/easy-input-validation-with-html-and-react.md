@@ -177,7 +177,7 @@ return (
       />
       <div id="signup-username-helper-text">
         8 characters, should not contain any spaces or special characters
-    </div>
+      </div>
     </div>
   );
 
@@ -196,7 +196,55 @@ return (
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-    this setup assumes you already know how to connect an input to react state management
+## Validation status icon
+
+Now that we have validation and helper text, let's add a visual cue indicating whether the field is valid or not. For this example we will use a heavy exclamation point (&#10071;) and a heavy check mark (&#10004;) to indicate invalid and valid, respectively. We can easily add a `div` as a direct sibling to the `input` in our JSX and then use a CSS psuedo-class to show either the checkmark or the exclamation point psuedo-element.
+
+```javascript
+// ...
+
+// Add the div.validation-status directly after the input
+return (
+    <div>
+      <label for="signup-username">Username</label>
+      <input 
+        id="signup-username"
+        type="text"
+        value={username}
+        onChange={handleUsernameChange}
+        required
+        pattern="\w{8,10}"
+        aria-describedby="signup-username-helper-text"
+      />
+      <div className="validation-status"></div>
+      <div id="signup-username-helper-text">
+        8 characters, should not contain any spaces or special characters
+      </div>
+    </div>
+  );
+
+// ...
+```
+
+```css
+/* Modify the two psuedo-classes to use the direct sibling's psuedo-element */
+#signup-username:invalid + .validation-status:after {
+  content: "\2757";
+}
+
+#signup-username:valid + .validation-status:after {
+  content: "\2714";
+}
+```
+<p class="codepen" data-height="300" data-default-tab="js,result" data-slug-hash="XWLzbRX" data-pen-title="Easy  input validation 5" data-user="Josh-Harrison" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/Josh-Harrison/pen/XWLzbRX">
+  Easy  input validation 5</a> by Josh Harrison (<a href="https://codepen.io/Josh-Harrison">@Josh-Harrison</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+
+
+  this setup assumes you already know how to connect an input to react state management
     input and attributes
         start with type=text for simplicity
         pattern
