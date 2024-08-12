@@ -154,7 +154,7 @@ return (
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-An alternative to using a `title` tooltip is to add visible text that describes the `input` using `aria-describedby`. The [`aria-describedby` attribute](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-describedby) expects an HTML `id` of the text that describes it. For our example, we will add helper text with a unique `id` as a sibling to the `input` and point the `input` to the helper text using `aria-describedby`. Using this method puts visible text on the page that is announced by a screen reader still as secondary or supplemental text when the screen reader focuses on the `input`.
+An alternative to using a `title` tooltip is to add visible text that describes the `input` using `aria-describedby`. The [`aria-describedby` attribute](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-describedby) expects an HTML `id` of the text that describes it. For our example, we will add helper text with a unique `id` as a sibling to the `input` and point the `input` to the helper text using `aria-describedby`. Using this method puts visible text on the page that is still announced by a screen reader as secondary or supplemental text when the screen reader focuses on the `input`.
 
 ### JSX
 ```javascript
@@ -246,7 +246,7 @@ return (
 
 ## Check validation on an action
 
-With all of the foundational elements, attributes, and styles in place, we can add a button that will check for any invalid field statuses when it is clicked. This way we can simulate blocking the data submit if the field or any number of fields are invalid.
+With all of the foundational elements, attributes, and styles in place, we can add a button that will check for any invalid fields when it is clicked. This way we can simulate blocking the data submit if the field or any number of fields are invalid.
 
 In order to check the validity of the `input` field, we have to attach a `ref` to it to keep track of it. The `ref` will allow us to use the `checkValidity()` helper to summarize the validity state as either `true` or `false`. There are a good number of specific validity checks you can do by using the [`input`'s `ValidityState API`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input#client-side_validation), but for our example we will use the overall `boolean` check.
 
@@ -297,10 +297,10 @@ function handleSubmitClick() {
 ## Wrap-up
 That's it, you have an easy way to do `input` validation.
 If you wanted to add more fields to your form you could still easily validate them by
-1. Assigning individual `ref`'s to each of them
+1. Assigning individual `ref`'s to each `input`
 2. Modify the `handleSubmitClick` handler to loop through each of the `input` `ref`s and `checkValidity` to set an overall `isValid` value
 
-There are other [`input` `type`s](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input#input_types) that you can use in your form and configuring validation on them is the same as this guide. For instance, you could have `<input type="email" />` and use `pattern=".+@\w+.com"` to ensure a valid `email@example.com` format is expected. Likewise, you could have `<input type="password">` that expects 1 or more special characters and use `pattern="[\w+!@$&%]{8}"`.
+There are other [`input` `type`s](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input#input_types) that you can use in your form and configuring validation on them is the same as described in this guide. For instance, you could have `<input type="email" />` and use `pattern=".+@\w+.com"` to ensure a valid `email@example.com` format is expected. Likewise, you could have `<input type="password">` that expects 8 characters with 1 or more special characters and use `pattern="[\w+!@$&%]{8}"`.
 
 Here is an example of a sign up form that uses all three.
 
