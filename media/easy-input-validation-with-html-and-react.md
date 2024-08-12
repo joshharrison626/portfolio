@@ -27,7 +27,7 @@ Simple alignment of the `#root` container to get our examples into the center of
 }
 ```
 
-### JS
+### JSX
 Creates a simple `label` and `input` for entering a string of text to be used as someone's username.
 ```javascript
 import React, { useState } from "https://esm.sh/react";
@@ -71,6 +71,7 @@ We are going to use the `input`'s [`pattern` attribute](https://developer.mozill
 
 > NOTE: These pseudo-classes use red and green to convey invalid and valid. To meet accessibility guidelines it is never recommended to convey meaning by color alone. We will improve these styles as we continue.
 
+### JSX
 ```javascript
 // ...
 
@@ -91,6 +92,8 @@ return (
 
 // ...
 ```
+
+### CSS
 ```css
 /* Add two pseudo-classes to your CSS */
 #signup-username:invalid {
@@ -102,6 +105,7 @@ return (
 }
 ```
 
+### Result
 <p class="codepen" data-height="300" data-default-tab="js,result" data-slug-hash="poXwVaM" data-pen-title="Easy input validation 2" data-user="Josh-Harrison" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/Josh-Harrison/pen/poXwVaM">
   Easy input validation 2</a> by Josh Harrison (<a href="https://codepen.io/Josh-Harrison">@Josh-Harrison</a>)
@@ -113,6 +117,7 @@ return (
 
 Now we will add helper text to the `input` to describe the expected format. We need to make sure that the helper text is accessible to support a screen reader. The [`pattern` spec](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/pattern#usability_and_accessibility_considerations) suggests using a `title` attribute. The [`title` attribute](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input#title) is represented as a tooltip and is announced as secondary or supplemental information by a screen reader.
 
+### JSX
 ```javascript
 // ...
 
@@ -134,6 +139,8 @@ return (
 
 // ...
 ```
+
+### Result
 * Mouse Hover
     <div class="media-image-container"><img src="../assets/images/easy-input-validation-tooltip.png" alt="" /></div>
 * Screen Reader
@@ -149,6 +156,7 @@ return (
 
 An alternative to using a `title` tooltip is to add visible text that describes the `input` using `aria-describedby`. The [`aria-describedby` attribute](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-describedby) expects an HTML `id` of the text that describes it. For our example, we will add helper text with a unique `id` as a sibling to the `input` and point the `input` to the helper text using `aria-describedby`. Using this method puts visible text on the page that is announced by a screen reader still as secondary or supplemental text when the screen reader focuses on the `input`.
 
+### JSX
 ```javascript
 // ...
 
@@ -174,6 +182,7 @@ return (
 // ...
 ```
 
+### Result
 * Screen Reader
     <div class="media-image-container"><img src="../assets/images/easy-input-validation-sr-3.png" alt="" /></div>
 
@@ -188,6 +197,7 @@ return (
 
 Now that we have validation and helper text, let's add a visual cue indicating whether the field is valid or not. For this example we will use a heavy exclamation point (&#10071;) and a heavy check mark (&#10004;) to indicate invalid and valid, respectively. We can easily add a `div` as a direct sibling to the `input` in our JSX and then use a CSS psuedo-class to show either the checkmark or the exclamation point psuedo-element.
 
+### JSX
 ```javascript
 // ...
 
@@ -214,6 +224,7 @@ return (
 // ...
 ```
 
+### CSS
 ```css
 /* Modify the two psuedo-classes to use the direct sibling's psuedo-element */
 #signup-username:invalid + .validation-status:after {
@@ -224,6 +235,8 @@ return (
   content: "\2714";
 }
 ```
+
+### Result
 <p class="codepen" data-height="300" data-default-tab="js,result" data-slug-hash="XWLzbRX" data-pen-title="Easy  input validation 5" data-user="Josh-Harrison" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/Josh-Harrison/pen/XWLzbRX">
   Easy  input validation 5</a> by Josh Harrison (<a href="https://codepen.io/Josh-Harrison">@Josh-Harrison</a>)
@@ -237,6 +250,7 @@ With all of the foundational elements, attributes, and styles in place, we can a
 
 In order to check the validity of the `input` field, we have to attach a `ref` to it to keep track of it. The `ref` will allow us to use the `checkValidity()` helper to summarize the validity state as either `true` or `false`. There are a good number of specific validity checks you can do by using the [`input`'s `ValidityState API`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input#client-side_validation), but for our example we will use the overall `boolean` check.
 
+### JSX
 ```javascript
 // Add the useRef hook to your imports
 import React, { useRef, useState } from "https://esm.sh/react";
@@ -272,6 +286,15 @@ function handleSubmitClick() {
 // ...
 ```
 
+### Result
+<p class="codepen" data-height="300" data-default-tab="js,result" data-slug-hash="KKjypRP" data-pen-title="Easy input validation 6" data-user="Josh-Harrison" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/Josh-Harrison/pen/KKjypRP">
+  Easy input validation 6</a> by Josh Harrison (<a href="https://codepen.io/Josh-Harrison">@Josh-Harrison</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+
+## Wrap-up
 That's it, you have an easy way to do `input` validation.
 If you wanted to add more fields to your form you could still easily validate them by
 1. Assigning individual `ref`'s to each of them
@@ -287,5 +310,3 @@ Here is an example of a sign up form that uses all three.
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
-
-
