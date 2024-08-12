@@ -1,19 +1,9 @@
 # Easy input validation with HTML and React
 
-describe how form validation can get unwieldy
+It's no surprise that HTML form validation can quickly become overly complicated to manage. During a recent code challenge that I was working through, I discovered a simple way to do `input` field validation using minimal JSX/React and documented `input` attributes and CSS.
 
-TL;DR of the solution
-uses the `input`'s [`pattern`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input#pattern) attribute
-uses the `:valid` and `:invalid` CSS pseudo-classes to display error messages
-uses the `input`'s `checkValidity` to check the validity (test with `reportValidity`) too
-uses the `input`'s `setCustomValidity` to display a custom message
+This approach takes advantage of native HTML controls and attributes, CSS psuedo-classes and psuedo-elements, and minimal React code. This results in a solution that is easy to manage as more `input`s are added and provides an accessible experience to keyboards and screen readers.
 
-Benefits
-    accessibility
-    native HTML attributes
-    code management
-
-Implementation
 ## Basic Setup
 This guide assumes that you already know how to build a simple `<input />` as a stateful component with React's `useState` hook and the `input`'s `value` and `onChange` attributes. For further information you can read React's [input API reference](https://react.dev/reference/react-dom/components/input). Let's take a quick look at our basic setup.
 
@@ -287,23 +277,15 @@ If you wanted to add more fields to your form you could still easily validate th
 1. Assigning individual `ref`'s to each of them
 2. Modify the `handleSubmitClick` handler to loop through each of the `input` `ref`s and `checkValidity` to set an overall `isValid` value
 
+There are other `input` `type`s that you can use in your form and configuring validation on them is the same as this guide. For instance, you could have `<input type="email" />` and use `pattern=".+@\w+.com"` to ensure a valid `email@example.com` format is expected. Likewise, you could have `<input type="password">` that expects 1 or more special characters and use `pattern="[\w+!@$&%]{8}"`.
 
+Here is an example of a sign up form that uses all three.
 
-  this setup assumes you already know how to connect an input to react state management
-    input and attributes
-        start with type=text for simplicity
-        pattern
-        validity
-            verify whether validity is always there or only if pattern is used
-    react setup for input (leave details out)
-    include a ref (link)
-    show validity and valid state
-    screen reader output
-Other input types
-    password
-    email
-    link to other types
+<p class="codepen" data-height="300" data-default-tab="js,result" data-slug-hash="oNrwNax" data-pen-title="Sign Up form with easy input validation" data-user="Josh-Harrison" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/Josh-Harrison/pen/oNrwNax">
+  Sign Up form with easy input validation</a> by Josh Harrison (<a href="https://codepen.io/Josh-Harrison">@Josh-Harrison</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-OUttro
-    link to codepen for final example this is based off of
 
