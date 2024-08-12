@@ -7,7 +7,7 @@ This approach takes advantage of native HTML controls and attributes, CSS psuedo
 ## Basic Setup
 This guide assumes that you already know how to build a simple `<input />` as a stateful component with React's `useState` hook and the `input`'s `value` and `onChange` attributes. For further information you can read React's [input API reference](https://react.dev/reference/react-dom/components/input). Let's take a quick look at our basic setup.
 
-We are going to use minimal CSS styling throughout so that we can focus just on the HTML structure and React functionality. At the end of this guide, I'll include some quick styling that will make it more visually appealing.
+We are going to use minimal CSS styling throughout so that we can focus just on the structure and functionality. At the end of this guide there is a fully functional and styled example for reference.
 
 ### HTML
 Not much to see here, and we won't be using it anymore beyond this `#root` element.
