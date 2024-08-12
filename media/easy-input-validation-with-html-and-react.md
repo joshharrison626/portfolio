@@ -277,7 +277,7 @@ If you wanted to add more fields to your form you could still easily validate th
 1. Assigning individual `ref`'s to each of them
 2. Modify the `handleSubmitClick` handler to loop through each of the `input` `ref`s and `checkValidity` to set an overall `isValid` value
 
-There are other `input` `type`s that you can use in your form and configuring validation on them is the same as this guide. For instance, you could have `<input type="email" />` and use `pattern=".+@\w+.com"` to ensure a valid `email@example.com` format is expected. Likewise, you could have `<input type="password">` that expects 1 or more special characters and use `pattern="[\w+!@$&%]{8}"`.
+There are other [`input` `type`s](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input#input_types) that you can use in your form and configuring validation on them is the same as this guide. For instance, you could have `<input type="email" />` and use `pattern=".+@\w+.com"` to ensure a valid `email@example.com` format is expected. Likewise, you could have `<input type="password">` that expects 1 or more special characters and use `pattern="[\w+!@$&%]{8}"`.
 
 Here is an example of a sign up form that uses all three.
 
