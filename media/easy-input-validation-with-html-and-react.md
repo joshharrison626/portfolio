@@ -150,6 +150,13 @@ return (
     <div class="media-image-container"><img src="../assets/images/easy-input-validation-sr-1.png" alt="" /></div>
     <div class="media-image-container"><img src="../assets/images/easy-input-validation-sr-2.png" alt="" /></div>
 
+<p class="codepen" data-height="300" data-default-tab="js,result" data-slug-hash="bGPRjZL" data-pen-title="Easy input validation 3" data-user="Josh-Harrison" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/Josh-Harrison/pen/bGPRjZL">
+  Easy input validation 3</a> by Josh Harrison (<a href="https://codepen.io/Josh-Harrison">@Josh-Harrison</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+
 An alternative to using a `title` tooltip is to add visible text that describes the `input` using `aria-describedby`. The [`aria-describedby` attribute](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-describedby) expects an HTML `id` of the text that describes it. For our example, we will add helper text with a unique `id` as a sibling to the `input` and point the `input` to the helper text using `aria-describedby`. Using this method puts visible text on the page that is announced by a screen reader still as secondary or supplemental text when the screen reader focuses on the `input`.
 
 ```javascript
@@ -173,8 +180,22 @@ return (
     </div>
     </div>
   );
+
+// ...
 ```
-    
+
+* Mouse Hover
+    <div class="media-image-container"><img src="../assets/images/easy-input-validation-2.png" alt="" /></div>
+* Screen Reader
+    <div class="media-image-container"><img src="../assets/images/easy-input-validation-sr-3.png" alt="" /></div>
+
+<p class="codepen" data-height="300" data-default-tab="js,result" data-slug-hash="rNEwZxX" data-pen-title="Easy input validation 4" data-user="Josh-Harrison" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/Josh-Harrison/pen/rNEwZxX">
+  Easy input validation 4</a> by Josh Harrison (<a href="https://codepen.io/Josh-Harrison">@Josh-Harrison</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+
     this setup assumes you already know how to connect an input to react state management
     input and attributes
         start with type=text for simplicity
