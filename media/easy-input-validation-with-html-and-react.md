@@ -137,7 +137,7 @@ return (
         onChange={handleUsernameChange}
         required
         pattern="\w{8,10}"
-        title="8 characters, should not contain any spaces or special characters"
+        title="8 to 10 characters, should not contain any spaces or special characters"
       />
     </div>
   );
@@ -176,7 +176,7 @@ return (
         aria-describedby="signup-username-helper-text"
       />
       <div id="signup-username-helper-text">
-        8 characters, should not contain any spaces or special characters
+        8 to 10 characters, should not contain any spaces or special characters
       </div>
     </div>
   );
@@ -184,8 +184,6 @@ return (
 // ...
 ```
 
-* Mouse Hover
-    <div class="media-image-container"><img src="../assets/images/easy-input-validation-2.png" alt="" /></div>
 * Screen Reader
     <div class="media-image-container"><img src="../assets/images/easy-input-validation-sr-3.png" alt="" /></div>
 
@@ -218,7 +216,7 @@ return (
       />
       <div className="validation-status"></div>
       <div id="signup-username-helper-text">
-        8 characters, should not contain any spaces or special characters
+        8 to 10 characters, should not contain any spaces or special characters
       </div>
     </div>
   );
@@ -242,6 +240,14 @@ return (
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+
+## Check validation on an action
+
+With all of the foundational elements, attributes, and styles in place, we can add a button that will check for any invalid field statuses when it is clicked. This way we can simulate blocking the data submit if the field or any number of fields are invalid.
+
+```javascript
+
+```
 
 
   this setup assumes you already know how to connect an input to react state management
