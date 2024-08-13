@@ -1,4 +1,4 @@
-# Easy input validation with HTML and React
+# Easy input validation with HTML, CSS, and (a little bit of) React
 
 It's no surprise that HTML form validation can quickly become overly complicated to manage. During a recent code challenge that I was working through, I discovered a simple way to do `input` field validation using minimal JSX/React and documented `input` attributes and CSS.
 
