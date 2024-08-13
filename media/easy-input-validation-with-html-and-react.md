@@ -33,7 +33,7 @@ This will give us some simple alignment of the `#root` container to get our exam
 
 ### JSX
 
-Creates a simple `label` and `input` for entering a string of text to be used as someone's username.
+This will create a simple `label` and `input` for entering a string of text to be used as someone's username.
 
 ```javascript
 import React, { useState } from "https://esm.sh/react";
