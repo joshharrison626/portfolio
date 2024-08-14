@@ -1,7 +1,3 @@
-layout: page
-title: "Prototypes"
-permalink: /prototypes
-
 # Prototypes
 
 ## Table layout and keyboard navigation
