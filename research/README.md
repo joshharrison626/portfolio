@@ -1,3 +1,7 @@
+layout: page
+title: "Research"
+permalink: /research
+
 # Research
 
 ## Time input fields
