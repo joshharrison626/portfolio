@@ -101,10 +101,6 @@ img.photo {
 .site-nav {
     max-width: 80rem;
 
-    & .menu-toggle {
-        display: none;
-    }
-
     & .nav-list {
         width: 100%;
         padding: 0;
@@ -137,5 +133,9 @@ img.photo {
     .site-nav {
         padding: 1rem 6rem .5rem;
         margin: 0 auto;
+
+        & .menu-toggle {
+            display: none;
+        }
     }
 }
