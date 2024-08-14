@@ -114,8 +114,19 @@ img.photo {
         gap: 1.5em;
     }
 
-    & .nav-item .active {
-        font-weight: bold;
+    & .nav-item {
+        & a {
+            & .link-label {
+                display: inline;
+            }
+            & .link-icon {
+                display: none;
+            }
+        }
+
+        & .active {
+            font-weight: bold;
+        }
     }
 }
 
@@ -128,10 +139,15 @@ img.photo {
 @media screen and (min-width: 42em) and (max-width: 64em) {
     .site-nav {
         padding: 1rem 4rem .5rem;
-    }
 
-    .menu-toggle {
-        display: block;
+        & .nav-item a {
+            & .link-label {
+                display: none;
+            }
+            & .link-icon {
+                display: inline;
+            }
+        }
     }
 }
 
