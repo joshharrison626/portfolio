@@ -10,4 +10,10 @@
             link.classList.remove('active');
         }
     });
+
+    function toggleMenu() {
+        debugger;
+        const menu = document.querySelector('.nav-list-container');
+        menu.classList.toggle('show');
+    }
 })();

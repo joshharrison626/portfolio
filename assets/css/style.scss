@@ -99,7 +99,13 @@ img.photo {
 }
 
 .site-nav {
-    max-width: 80rem;
+    & .nav-list-container {
+        height: 0;
+
+        &.show {
+            height: auto;
+        }
+    }
 
     & .nav-list {
         width: 100%;
@@ -133,6 +139,7 @@ img.photo {
     .site-nav {
         padding: 1rem 6rem .5rem;
         margin: 0 auto;
+        max-width: 80rem;
 
         & .menu-toggle {
             display: none;
