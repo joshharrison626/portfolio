@@ -160,8 +160,13 @@ img.photo {
             display: none;
         }
 
+        & .nav-list-container {
+            height: inherit;
+        }
+
         & .nav-list {
             flex-direction: row;
+            visibility: visible;
         }
     }
 }
