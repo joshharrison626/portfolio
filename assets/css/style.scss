@@ -112,6 +112,7 @@ img.photo {
             width: 16rem;
             background-color: #fff;
             box-shadow: 0 0 .25rem 0 rgba(0, 0, 0, 0.2);
+            visibility: visible;
         }
     }
 
@@ -124,6 +125,7 @@ img.photo {
         flex-direction: column;
         gap: 1.5em;
         height: inherit;
+        visibility: hidden;
     }
 
     & .nav-item {
