@@ -97,3 +97,26 @@ img.photo {
     padding: 4px;
     margin-bottom: 12px;
 }
+
+.site-nav {
+    padding: 1rem 4rem .5rem;
+
+    & .menu-toggle {
+        display: none;
+    }
+
+    & .nav-list {
+        width: 100%;
+        padding: 0;
+        list-style: none;
+        margin: 0;
+        display: flex;
+        gap: 1.5em;
+    }
+}
+
+@media screen and (max-width: 672px) {
+    .menu-toggle {
+        display: block;
+    }
+}
