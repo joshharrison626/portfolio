@@ -17,7 +17,7 @@
 
     <header class="page-header" role="banner">
       <h1 class="project-name">{{ site.title }}</h1>
-      <h2 class="project-tagline">{{ site.description }}</h2>
+      <p class="project-tagline">{{ site.description }}</p>
       {% if site.github.is_project_page %}
         <a href="{{ site.github.repository_url }}" class="btn">View on GitHub</a>
       {% endif %}
@@ -26,7 +26,16 @@
         <a href="{{ site.github.tar_url }}" class="btn">Download .tar.gz</a>
       {% endif %}
     </header>
-
+    <nav  class="site-nav">
+      <button class="menu-toggle">Menu</button>
+      <ul class="nav-list">
+        <li class="nav-item"><a href="./assets/files/Josh_Harrison_UI_UX_Developer_Resume.pdf">Resume</a></li>
+        <li class="nav-item"><a href="./media/">Media</a></li>
+        <li class="nav-item"><a href="./prototypes/">Prototypes</a></li>
+        <li class="nav-item"><a href="./experiments/">Experiments</a></li>
+        <li class="nav-item"><a href="./animations/">SVG Animations</a></li>
+      </ul>
+    </nav>
     <main id="content" class="main-content" role="main">
       {{ content }}
       {{ JSON.stringify(site) }}
