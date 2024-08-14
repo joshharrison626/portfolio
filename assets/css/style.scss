@@ -104,6 +104,9 @@ img.photo {
 
         &.show {
             height: auto;
+            border: 1px solid black;
+            padding: 1em;
+            border-radius: 0.3rem;
         }
     }
 
@@ -113,7 +116,9 @@ img.photo {
         list-style: none;
         margin: 0;
         display: flex;
+        flex-direction: column;
         gap: 1.5em;
+        height: inherit;
     }
 
     & .nav-item {
@@ -143,6 +148,10 @@ img.photo {
 
         & .menu-toggle {
             display: none;
+        }
+
+        & .nav-list {
+            flex-direction: row;
         }
     }
 }
