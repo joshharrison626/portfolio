@@ -16,4 +16,6 @@
         const menu = document.querySelector('.nav-list-container');
         menu.classList.toggle('show');
     }
+    const menuButton = document.querySelector('.menu-toggle');
+    menuButton.addEventListener('click', toggleMenu);
 })();
