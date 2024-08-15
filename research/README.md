@@ -1,7 +1,3 @@
-layout: page
-title: "Research"
-permalink: /research
-
 # Research
 
 ## Time input fields
@@ -12,5 +8,3 @@ Currently our time "select" fields are built as an input with a dropdown list op
 My task was to investigate how competitors and/or industry leaders support date/time input fields and to recommend options based on prototypes.
 
 Read more in my <a href="{{ site.baseurl }}/assets/files/INV_How_should_DateTimeSelect_support_time_increments.pdf" target="_blank">investigation into time input fields</a>.
-
-<img src="/assets/images/time_input_fields_prototypes.png" alt="prototype examples of different time input fields" />
