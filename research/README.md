@@ -11,6 +11,6 @@ Currently our time "select" fields are built as an input with a dropdown list op
 
 My task was to investigate how competitors and/or industry leaders support date/time input fields and to recommend options based on prototypes.
 
-Read more in my [investigation into time input fields](https://docs.google.com/document/d/1w351H2Ih10e0KT_HQhwIWEZLCLYnlQK1/edit?usp=drive_link&ouid=106808209585355818270&rtpof=true&sd=true).
+Read more in my <a href="{{ site.baseurl }}/assets/files/INV_How_should_DateTimeSelect_support_time_increments.pdf" target="_blank">investigation into time input fields</a>.
 
 <img src="/assets/images/time_input_fields_prototypes.png" alt="prototype examples of different time input fields" />
