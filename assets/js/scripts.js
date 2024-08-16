@@ -12,9 +12,10 @@
     });
 
     function toggleMenu() {
-        debugger;
         const menu = document.querySelector('.nav-list-container');
         menu.classList.toggle('show');
+        const expanded = menu.getAttribute('aria-expanded');
+        menu.setAttribute('aria-expanded', expanded === 'true' ? 'false' : 'true');
     }
     const menuButton = document.querySelector('.menu-toggle');
     menuButton.addEventListener('click', toggleMenu);
