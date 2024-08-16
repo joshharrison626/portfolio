@@ -48,6 +48,9 @@
                 }
             } else if (['Escape', 'Tab'].includes(event.key)) {
                 closeMenu(event, true);
+                if (event.key === 'Escape') {
+                    document.querySelector('.menu-toggle').focus();
+                }
             }
         });
         setTimeout(() => {
