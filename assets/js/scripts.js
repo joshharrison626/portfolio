@@ -32,7 +32,7 @@
             debugger;
             if (event.key === 'ArrowDown') {
                 event.preventDefault();
-                const nextLink = event.target.nextElementSibling;
+                const nextLink = event.target.parentElement.nextElementSibling.firstElementChild;
                 if (nextLink) {
                     nextLink.focus();
                 } else {
@@ -40,7 +40,7 @@
                 }
             } else if (event.key === 'ArrowUp') {
                 event.preventDefault();
-                const prevLink = event.target.previousElementSibling;
+                const prevLink = event.target.parentElement.previousElementSibling.firstElementChild;
                 if (prevLink) {
                     prevLink.focus();
                 } else {
