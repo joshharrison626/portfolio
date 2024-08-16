@@ -22,15 +22,20 @@
     }
 
     function openMenu() {
-        debugger;
         const menu = document.querySelector('.nav-list-container');
         menu.classList.toggle('show');
         menu.setAttribute('aria-expanded', 'true');
         setTimeout(() => {
             document.addEventListener('click', closeMenu);
+
         });
     }
 
     const menuButton = document.querySelector('.menu-toggle');
     menuButton.addEventListener('click', openMenu);
+    menuButton.addEventListener('keydown', (event) => {
+        if (event.key === 'Escape') {
+            closeMenu();
+        }
+    });
 })();
