@@ -12,6 +12,7 @@
     });
 
     function closeMenu(event) {
+        debugger;
         const menu = document.querySelector('.nav-list-container');
         if (!menu.contains(event.target)) {
             menu.classList.remove('show');
@@ -21,6 +22,7 @@
     }
 
     function openMenu() {
+        debugger;
         const menu = document.querySelector('.nav-list-container');
         menu.classList.toggle('show');
         menu.setAttribute('aria-expanded', 'true');
