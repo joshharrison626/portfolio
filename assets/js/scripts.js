@@ -11,9 +11,9 @@
         }
     });
 
-    function closeMenu(event) {
+    function closeMenu(event, forceClose = false) {
         const menu = document.querySelector('.nav-list-container');
-        if (!menu.contains(event.target)) {
+        if (!menu.contains(event.target) || forceClose) {
             menu.classList.remove('show');
             menu.setAttribute('aria-expanded', 'false');
             document.removeEventListener('click', closeMenu);
@@ -47,7 +47,7 @@
                     menu.querySelector('a:last-child').focus();
                 }
             } else if (['Escape', 'Tab'].includes(event.key)) {
-                closeMenu(event);
+                closeMenu(event, true);
             }
         });
         setTimeout(() => {
