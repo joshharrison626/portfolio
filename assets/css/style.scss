@@ -223,7 +223,8 @@ img.photo {
 }
 
 .button-4:focus {
-  outline: 1px transparent;
+  outline: -webkit-focus-ring-color auto 1px;
+  outline-offset: 1px;
 }
 
 .button-4:before {
