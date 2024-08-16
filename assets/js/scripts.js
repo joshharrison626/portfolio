@@ -26,7 +26,9 @@
         const menu = document.querySelector('.nav-list-container');
         menu.classList.toggle('show');
         menu.setAttribute('aria-expanded', 'true');
-        document.addEventListener('click', closeMenu);
+        setTimeout(() => {
+            document.addEventListener('click', closeMenu);
+        });
     }
 
     const menuButton = document.querySelector('.menu-toggle');
