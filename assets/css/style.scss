@@ -131,6 +131,11 @@ img.photo {
         & .active {
             font-weight: bold;
         }
+
+        &:focus-visible {
+            outline: none;
+            text-decoration: underline;
+        }
     }
 }
 
