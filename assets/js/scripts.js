@@ -12,7 +12,6 @@
     });
 
     function closeMenu(event) {
-        debugger;
         const menu = document.querySelector('.nav-list-container');
         if (!menu.contains(event.target)) {
             menu.classList.remove('show');
@@ -29,8 +28,8 @@
             link.setAttribute('tabindex', '-1');
         });
         menu.querySelector('a').focus();
-        // add a keydown event listener to the menu for up and down arrow keys
         menu.addEventListener('keydown', (event) => {
+            debugger;
             if (event.key === 'ArrowDown') {
                 event.preventDefault();
                 const nextLink = event.target.nextElementSibling;
