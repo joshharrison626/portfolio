@@ -12,18 +12,20 @@
     });
 
     function closeMenu(event, forceClose = false) {
+        const menuButton = document.querySelector('.menu-toggle');
         const menu = document.querySelector('.nav-list-container');
         if (!menu.contains(event.target) || forceClose) {
+            menuButton.setAttribute('aria-expanded', 'false');
             menu.classList.remove('show');
-            menu.setAttribute('aria-expanded', 'false');
             document.removeEventListener('click', closeMenu);
         }
     }
 
     function openMenu() {
+        const menuButton = document.querySelector('.menu-toggle');
+        menuButton.setAttribute('aria-expanded', 'true');
         const menu = document.querySelector('.nav-list-container');
         menu.classList.toggle('show');
-        menu.setAttribute('aria-expanded', 'true');
         menu.querySelectorAll('a').forEach((link) => {
             link.setAttribute('tabindex', '-1');
         });
