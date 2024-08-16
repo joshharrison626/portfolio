@@ -34,8 +34,6 @@
     const menuButton = document.querySelector('.menu-toggle');
     menuButton.addEventListener('click', openMenu);
     menuButton.addEventListener('keydown', (event) => {
-        if (event.key === 'Escape') {
-            closeMenu();
-        }
+        ['Escape', 'Tab'].includes(event.key) && closeMenu(event);
     });
 })();
