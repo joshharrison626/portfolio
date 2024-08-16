@@ -29,6 +29,7 @@
         });
         menu.querySelector('a').focus();
         menu.addEventListener('keydown', (event) => {
+            debugger;
             if (event.key === 'ArrowDown') {
                 event.preventDefault();
                 const nextLink = event.target.parentElement.nextElementSibling.firstElementChild;
