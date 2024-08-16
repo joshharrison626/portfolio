@@ -165,7 +165,12 @@ img.photo {
             height: inherit;
 
             &.show {
-                height: inherit;
+                height: 0;
+                border: none;
+                padding: 0;
+                background-color: transparent;
+                box-shadow: none;
+                overflow: visib1le;
             }
         }
 
