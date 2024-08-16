@@ -11,12 +11,22 @@
         }
     });
 
-    function toggleMenu() {
+    function closeMenu(event) {
+        const menu = document.querySelector('.nav-list-container');
+        if (!menu.contains(event.target)) {
+            menu.classList.remove('show');
+            menu.setAttribute('aria-expanded', 'false');
+            document.removeEventListener('click', closeMenu);
+        }
+    }
+
+    function openMenu() {
         const menu = document.querySelector('.nav-list-container');
         menu.classList.toggle('show');
-        const expanded = menu.getAttribute('aria-expanded');
-        menu.setAttribute('aria-expanded', expanded === 'true' ? 'false' : 'true');
+        menu.setAttribute('aria-expanded', 'true');
+        document.addEventListener('click', closeMenu);
     }
+
     const menuButton = document.querySelector('.menu-toggle');
-    menuButton.addEventListener('click', toggleMenu);
+    menuButton.addEventListener('click', openMenu);
 })();
