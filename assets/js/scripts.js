@@ -29,7 +29,6 @@
         });
         menu.querySelector('a').focus();
         menu.addEventListener('keydown', (event) => {
-            debugger;
             if (event.key === 'ArrowDown') {
                 event.preventDefault();
                 const nextLink = event.target.parentElement.nextElementSibling.firstElementChild;
@@ -46,6 +45,8 @@
                 } else {
                     menu.querySelector('a:last-child').focus();
                 }
+            } else if (['Escape', 'Tab'].includes(event.key)) {
+                closeMenu(event);
             }
         });
         setTimeout(() => {
