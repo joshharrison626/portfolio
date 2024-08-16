@@ -132,7 +132,7 @@ img.photo {
             font-weight: bold;
         }
 
-        &:focus-visible {
+        &:focus, &:focus-visible {
             outline: none;
             text-decoration: underline;
         }
