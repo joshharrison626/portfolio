@@ -20,7 +20,7 @@ The reason I used both description list and ordered list was to experience the s
 #### Videos
 <ol>
     <li>
-        <a href="https://drive.google.com/file/d/14qXV-1mY35f_3RBqDuY8rbHjw_FKeZj9/view?usp=sharing">Semantic description list (unstyled)</a>
+        <a href="https://drive.google.com/file/d/14qXV-1mY35f_3RBqDuY8rbHjw_FKeZj9/view?usp=sharing" target="_blank">Semantic description list (unstyled)</a>
         <div class="open-in-new-window-icon">
             <!-- arrow-up-right-from-square icon by Free Icons (https://free-icons.github.io/free-icons/) -->
             <svg xmlns="http://www.w3.org/2000/svg" height="1em" fill="currentColor" viewBox="0 0 512 512">
@@ -29,7 +29,7 @@ The reason I used both description list and ordered list was to experience the s
         </div>
     </li>
     <li>
-        <a href="https://drive.google.com/file/d/1DKvfOHJ8Oexj1W0kCi5EgQFlZ_2Hz035/view?usp=sharing">Semantic ordered list (unstyled)</a>
+        <a href="https://drive.google.com/file/d/1DKvfOHJ8Oexj1W0kCi5EgQFlZ_2Hz035/view?usp=sharing" target="_blank">Semantic ordered list (unstyled)</a>
         <div class="open-in-new-window-icon">
             <!-- arrow-up-right-from-square icon by Free Icons (https://free-icons.github.io/free-icons/) -->
             <svg xmlns="http://www.w3.org/2000/svg" height="1em" fill="currentColor" viewBox="0 0 512 512">
@@ -38,7 +38,7 @@ The reason I used both description list and ordered list was to experience the s
         </div>
     </li>
     <li>
-        <a href="https://drive.google.com/file/d/1sWE4BQ752GY3LWBaN19Ym0NjyyqXE5Ym/view?usp=sharing">Semantic Table (unstyled)</a>
+        <a href="https://drive.google.com/file/d/1sWE4BQ752GY3LWBaN19Ym0NjyyqXE5Ym/view?usp=sharing" target="_blank">Semantic Table (unstyled)</a>
         <div class="open-in-new-window-icon">
             <!-- arrow-up-right-from-square icon by Free Icons (https://free-icons.github.io/free-icons/) -->
             <svg xmlns="http://www.w3.org/2000/svg" height="1em" fill="currentColor" viewBox="0 0 512 512">
@@ -47,7 +47,7 @@ The reason I used both description list and ordered list was to experience the s
         </div>
     </li>
     <li>
-        <a href="https://drive.google.com/file/d/1C0A5lnI6yVoTdY-TwUvW-YPLyi16QsO4/view?usp=sharing">Final Table (styled)</a>
+        <a href="https://drive.google.com/file/d/1C0A5lnI6yVoTdY-TwUvW-YPLyi16QsO4/view?usp=sharing" target="_blank">Final Table (styled)</a>
         <div class="open-in-new-window-icon">
             <!-- arrow-up-right-from-square icon by Free Icons (https://free-icons.github.io/free-icons/) -->
             <svg xmlns="http://www.w3.org/2000/svg" height="1em" fill="currentColor" viewBox="0 0 512 512">
