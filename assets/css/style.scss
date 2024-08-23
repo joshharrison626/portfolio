@@ -20,12 +20,6 @@ body {
     & :is(h1,h2,h3,h4,h5,h6) {
         color: #303846;
     }
-
-    .fog {
-        height: 2.25rem;
-        width: 100%;
-        background: linear-gradient(90deg, #f0f0f0 25%, #f8f8f8 50%, #f0f0f0 75%);
-    }
 } 
 
 img.photo {
