@@ -20,6 +20,12 @@ body {
     & :is(h1,h2,h3,h4,h5,h6) {
         color: #303846;
     }
+
+    .fog {
+        height: 2.25rem;
+        width: 100%;
+        background: linear-gradient(90deg, #f0f0f0 25%, #f8f8f8 50%, #f0f0f0 75%);
+    }
 } 
 
 img.photo {
@@ -152,6 +158,14 @@ img.photo {
 @media screen and (min-width: 42em) and (max-width: 64em) {
     .site-nav {
         padding: 1rem 4rem .5rem;
+    }
+
+    .page-header {
+        padding: 1rem 4rem;
+    }
+    
+    .project-name {
+        font-size: 2.25rem;
     }
 }
 
