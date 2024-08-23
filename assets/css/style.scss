@@ -78,11 +78,13 @@ img.photo {
                 color: #8d8e94;
             }
 
-            & .open-in-new-window-icon {
-                display: inline-block;
-            }
         }
     }
+
+}
+
+.open-in-new-window-icon {
+    display: inline-block;
 }
 
 .media-image-container {
