@@ -18,6 +18,7 @@ My objective was to prove whether this "list" should be built as an HTML list or
 The reason I used both description list and ordered list was to experience the screen reader and how it handles having separate property and value (description list) read aloud vs a string of text representing property and value read aloud at one time. The description list proved to be too noisy and verbose and required too many keyboard clicks to be helpful as compared to using a single string of text per item.
 
 #### Videos
+
 <ol>
     <li>
         <a href="https://drive.google.com/file/d/14qXV-1mY35f_3RBqDuY8rbHjw_FKeZj9/view?usp=sharing" target="_blank">Semantic description list (unstyled)</a>
