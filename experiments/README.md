@@ -62,19 +62,19 @@ The reason I used both description list and ordered list was to experience the s
 
 <div class="container-row">
     <div class="experiment-image-container">
-        <h3>Description List</h3>
+        <h4>Description List</h4>
         <img src="../assets/images/description_list.png">
     </div>
     <div class="experiment-image-container">
-        <h3>Ordered List</h3>
+        <h4>Ordered List</h4>
         <img src="../assets/images/ordered_list.png">
     </div>
     <div class="experiment-image-container">
-        <h3>Semantic Table</h3>
+        <h4>Semantic Table</h4>
         <img src="../assets/images/semantic_table.png">
     </div>
     <div class="experiment-image-container">
-        <h3>Styled Table</h3>
+        <h4>Styled Table</h4>
         <img src="../assets/images/styled_table.png">
     </div>
 </div>
