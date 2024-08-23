@@ -63,19 +63,19 @@ The reason I used both description list and ordered list was to experience the s
 <div class="container-row">
     <div class="experiment-image-container">
         <h4>Description List</h4>
-        <img src="../assets/images/description_list.png">
+        <img src="../assets/images/description_list.png" alt="description list of workers">
     </div>
     <div class="experiment-image-container">
         <h4>Ordered List</h4>
-        <img src="../assets/images/ordered_list.png">
+        <img src="../assets/images/ordered_list.png" alt="ordered list of workers">
     </div>
     <div class="experiment-image-container">
         <h4>Semantic Table</h4>
-        <img src="../assets/images/semantic_table.png">
+        <img src="../assets/images/semantic_table.png" alt="table view of workers">
     </div>
     <div class="experiment-image-container">
         <h4>Styled Table</h4>
-        <img src="../assets/images/styled_table.png">
+        <img src="../assets/images/styled_table.png" alt="styled table view of workers">
     </div>
 </div>
 
@@ -84,15 +84,15 @@ The result of this experiment was to build the feature following the table spec,
 
 <div class="experiment-image-container">
     <h4>Semantic Table</h4>
-    <img src="../assets/images/semantic_table.png">
+    <img src="../assets/images/semantic_table.png" alt="unstyled table view of workers">
 </div>
 <div class="experiment-image-container">
     <h4>Styled Table</h4>
-    <img src="../assets/images/styled_table.png">
+    <img src="../assets/images/styled_table.png" alt="styled table view of workers">
 </div>
 <div class="experiment-image-container">
     <h4>Final with expand/collapse rows</h4>
-    <img src="../assets/images/table_or_list_final.png">
+    <img src="../assets/images/table_or_list_final.png" alt="styled table view with expand / collapse rows">
 </div>
 
 ### Lessons learned
@@ -111,5 +111,5 @@ A future redesign changed the visual layout of the feature, remove the card list
 
 <div class="experiment-image-container">
     <h4>Table Redesign</h4>
-    <img src="../assets/images/table_or_list_redesign.png">
+    <img src="../assets/images/table_or_list_redesign.png" alt="redesigned table view with expand / collapse rows">
 </div>
