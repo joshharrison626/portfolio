@@ -40,7 +40,26 @@ I have not ever spent time learning CSS transitions and animations, so I took a 
     </div>
 </div>
 
-## Loading...
+## Rocketship Loading...
+<div class="container-row">
+    <div class="animation-image-container">
+        <h3>Original SVG</h3>
+        <div class="static-image">
+            <img src="../assets/images/rocket_illo.svg" width="300px" />
+        </div>
+    </div>
+    <div class="pen-container">
+        <h3>Animated SVG</h3>
+        <p class="codepen" data-height="360" data-default-tab="result" data-slug-hash="LEPevem" data-pen-title="Rocketship Loading" data-user="Josh-Harrison" style="height: 360px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+        <span>See the Pen <a href="https://codepen.io/Josh-Harrison/pen/LEPevem">
+        Rocketship Loading</a> by Josh Harrison (<a href="https://codepen.io/Josh-Harrison">@Josh-Harrison</a>)
+        on <a href="https://codepen.io">CodePen</a>.</span>
+        </p>
+        <script async src="https://public.codepenassets.com/embed/index.js"></script>
+    </div>
+</div>
+
+## HTML Loading...
 <div class="container-row">
     <div class="pen-container">
         <h3>Animated HTML</h3>
